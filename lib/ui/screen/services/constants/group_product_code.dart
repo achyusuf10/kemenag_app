@@ -1,0 +1,16 @@
+const telkomselGroupCode = 'TELKOMSEL';
+const indosatGroupCode = 'ISAT';
+const threeGroupCode = 'KARTU3';
+const xlGroupCode = 'XL';
+const smartfrenGroupCode = 'smartfren';
+const plnGroupCode = 'PLN';
+const ticketGroupCode = 'TIKET';
+const telkomGroupCode = 'TELKOM';
+const asuransiGroupCode = 'ASURANSI';
+const gasGroupCode = 'GAS';
+const pdamGroupCode = 'WASDA';
+const pascabayarMobileGroupCode = 'HP PASCABAYAR';
+const tvProviderGroupCode = 'TV KABEL';
+const financeGroupCode = 'FINANCE';
+const ovoGroupCode = 'OVO';
+const danaGroupCode = 'DANA';

@@ -1,0 +1,125 @@
+name: inisa_app
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.1.27+99
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  app_settings: ^4.1.6
+  badges: ^2.0.1
+  cached_network_image: ^3.0.0-nullsafety
+  carousel_slider: ^4.0.0
+  common_utils: ^2.0.2
+  cupertino_icons: ^1.0.2
+  contacts_service: ^0.6.3
+  currency_text_input_formatter: ^2.1.5
+  dotted_border: ^2.0.0+1
+  external_path: ^1.0.1
+  firebase_core: ^1.11.0
+  firebase_analytics: ^9.1.0
+  flutter_datetime_picker: ^1.5.1
+  flutter_inappwebview: ^5.6.0+2
+  flutter_html: ^2.2.1
+  flutter_native_image: ^0.0.6+1
+  flutter_native_timezone: ^2.0.0
+  flutter_screenutil: ^5.2.0
+  flutter_spinkit:
+  # flutter_swiper: ^1.1.6
+  fluttertoast: ^8.0.8
+  flutter_typeahead: ^3.2.0
+  flutter_svg: ^0.23.0+1
+  geolocator:
+  google_fonts: 2.2.0
+  grouped_list: ^4.1.0
+  image_picker: ^0.8.2
+  lottie: ^1.2.1
+  open_mail_app: ^0.3.0
+  package_info: ^2.0.2
+  pdf: ^3.6.4
+  pull_to_refresh:
+  # qr_code_scanner: ^0.5.2
+  qr_flutter: ^4.0.0
+  safe_device: ^1.0.7
+  share_plus: ^3.0.4
+  shimmer: ^2.0.0
+  smooth_page_indicator: ^1.0.0+2
+  store_redirect: ^2.0.0
+  syncfusion_flutter_datepicker: ^19.2.62
+  timezone: ^0.8.0
+  tutorial_coach_mark: ^1.1.1
+  url_launcher:
+  sentry_flutter: ^6.18.1
+  in_app_review: ^2.0.6
+
+  qoin_sdk:
+    git:
+      url: https://yustanj:XX4anzTGC3FKUYrA6yzd@bitbucket.org/loyaltoid/qoin_sdk.git
+      ref: master
+
+  # venturo_mobile:
+  #   git:
+  #     url: https://yustanj:XX4anzTGC3FKUYrA6yzd@bitbucket.org/loyaltoid/venturo_mobile.git
+  #     ref: master
+
+  flutter_swiper:
+    git:
+      url: https://github.com/pearlmaknun/flutter_swiper.git
+      ref: lulu
+
+dependency_overrides:
+  tflite_flutter:
+    git:
+      url: https://github.com/ThangVuNguyenViet/tflite_flutter_plugin.git
+      ref: master
+  # qoin_sdk:
+  #   path: ../../qoin_moduless/qoin_sdk
+  # qoin_sdk:
+  #   path: ../qoin_sdk
+  # face_sdk:
+  #   path: ../face_sdk
+  # venturo_mobile:
+  #   path: ../venturo_mobile
+  # flutter_swiper:
+  #   path: ../flutter_swiper
+
+  firebase_remote_config_platform_interface: 1.0.5
+  cloud_firestore_platform_interface: 5.4.13
+  firebase_dynamic_links_platform_interface: 0.2.0+5
+  firebase_messaging_platform_interface: 3.1.6
+  firebase_analytics_platform_interface: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.2"
+  flutter_native_splash: ^1.2.3
+  json_annotation:
+
+flutter_icons:
+  android: false
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/ios_icon.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/keys/
+    - assets/images/
+    - assets/images/dialog/
+    - assets/images/wallet/
+    - assets/images/otp/
+    - assets/images/profile/
+    - assets/images/services/
+    - assets/images/digital_id/
+    - assets/keys/
+    - assets/lottie/
+    - assets/images/transaction/
+    - assets/images/flags/
+    - assets/svg/
+    - assets/keys/qoin/
+    - assets/face_recognition_model.tflite

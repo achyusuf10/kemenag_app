@@ -1,0 +1,6 @@
+package kemenag.id
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
